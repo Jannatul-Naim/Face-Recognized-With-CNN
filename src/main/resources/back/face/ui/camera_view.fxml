@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="back.face.controller.CameraController">
+
+    <center>
+        <VBox spacing="40">
+            <ImageView fx:id="cameraView" fitWidth="800" fitHeight="500" preserveRatio="true"/>
+            <HBox spacing="10">
+                <Button fx:id="captureBtn" text="📸 Capture" prefHeight="50" prefWidth="400"/>
+                <Button fx:id="checkBtn" text="📸 CHECK" prefHeight="50" prefWidth="400"/>
+            </HBox>
+        </VBox>
+    </center>
+
+</BorderPane>
